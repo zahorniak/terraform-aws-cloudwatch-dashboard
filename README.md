@@ -6,7 +6,7 @@ This Terraform module generates JSON template which you can use to create Terraf
 
 ## Usage
 
-```hcl-terraform
+```hcl
 module "dashboard" {
   source = "zahorniak/cloudwatch-dashboard/aws"
   start  = "-PT4H"
@@ -36,7 +36,6 @@ resource "aws_cloudwatch_dashboard" "dashboard" {
   dashboard_body = module.dashboard.json_map_encoded
   dashboard_name = "complete-example"
 }
-
 ```
 
 For more information see [official Amazon Cloudwatch Dashboard documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/CloudWatch-Dashboard-Body-Structure.html)
