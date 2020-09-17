@@ -39,6 +39,8 @@ resource "aws_cloudwatch_dashboard" "dashboard" {
 
 ```
 
+For more information see [official Amazon Cloudwatch Dashboard documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/CloudWatch-Dashboard-Body-Structure.html)
+
 ## Examples
 * [complete-dasboard](https://github.com/zahorniak/terraform-aws-cloudwatch-dashboard/tree/master/examples/complete-dashboard)
 
