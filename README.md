@@ -40,7 +40,7 @@ resource "aws_cloudwatch_dashboard" "dashboard" {
 ```
 
 ## Examples
-* [complete-dasboard](https://github.com/zahorniak/terraform-aws-cloudwatch-dashboard/examples/complete-dashboard)
+* [complete-dasboard](https://github.com/zahorniak/terraform-aws-cloudwatch-dashboard/tree/master/examples/complete-dashboard)
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
