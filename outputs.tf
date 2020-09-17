@@ -1,3 +1,4 @@
 output "json_map_encoded" {
-  value = local.json_map
+  description = "CloudWatch Dashboard JSON template"
+  value       = local.json_map
 }

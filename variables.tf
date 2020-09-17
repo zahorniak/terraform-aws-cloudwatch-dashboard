@@ -1,6 +1,5 @@
 variable "widgets" {
   description = "The list of widgets in the dashboard."
-  default     = []
   type        = any
 }
 
