@@ -8,7 +8,7 @@ This Terraform module generates JSON template which you can use to create Terraf
 
 ```hcl-terraform
 module "dashboard" {
-  source = "git@github.com:zahorniak/terraform-aws-cloudwatch-dashboard.git"
+  source = "zahorniak/cloudwatch-dashboard/aws"
   start  = "-PT4H"
   widgets = [
     {
